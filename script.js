@@ -27,6 +27,7 @@ const CONTENT_CONFIG = {
     'standards-overview': { file: 'ai-standards-overview.md', contentId: 'standards-overview-content', loadedFlag: 'standardsOverviewLoaded' },
     'cert-process': { file: 'ai-certification-process.md', contentId: 'cert-process-content', loadedFlag: 'certProcessLoaded' },
     'timeline': { file: 'ai-timeline.md', contentId: 'timeline-content', loadedFlag: 'timelineLoaded' },
+    'tech-prof': { file: 'ai-tech-proficiency.md', contentId: 'tech-prof-content', loadedFlag: 'techProfLoaded' },
     'iso': { file: 'iso-42001.md', contentId: 'iso-content', loadedFlag: 'isoLoaded' },
     'standards': { file: 'ai-standards-trends.md', contentId: 'standards-content', loadedFlag: 'standardsLoaded' },
     'iso-22989': { file: 'iso-22989-terminology.md', contentId: 'iso-22989-content', loadedFlag: 'iso22989Loaded' },
