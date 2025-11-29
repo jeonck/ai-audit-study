@@ -20,6 +20,7 @@ const CONTENT_CONFIG = {
     'governance': { file: 'ai-governance-elements.md', contentId: 'governance-content', loadedFlag: 'governanceLoaded' },
     'iso-23894': { file: 'iso-23894-properties.md', contentId: 'iso-23894-content', loadedFlag: 'iso23894Loaded' },
     'iso-23894-overview': { file: 'iso-23894-standard-overview.md', contentId: 'iso-23894-overview-content', loadedFlag: 'iso23894OverviewLoaded' },
+    'iso-24028': { file: 'iso-24028-trustworthiness.md', contentId: 'iso-24028-content', loadedFlag: 'iso24028Loaded' },
     'cert-process': { file: 'ai-certification-process.md', contentId: 'cert-process-content', loadedFlag: 'certProcessLoaded' },
     'timeline': { file: 'ai-timeline.md', contentId: 'timeline-content', loadedFlag: 'timelineLoaded' },
     'iso': { file: 'iso-42001.md', contentId: 'iso-content', loadedFlag: 'isoLoaded' },
