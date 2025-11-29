@@ -14,6 +14,7 @@ const CONTENT_CONFIG = {
     'safeguards': { file: 'ai-safeguards.md', contentId: 'safeguards-content', loadedFlag: 'safeguardsLoaded' },
     'tta': { file: 'tta-guide.md', contentId: 'tta-content', loadedFlag: 'ttaLoaded' },
     'eu-ethics': { file: 'eu-ethics-guidelines.md', contentId: 'eu-ethics-content', loadedFlag: 'euEthicsLoaded' },
+    'altai': { file: 'eu-altai-tool.md', contentId: 'altai-content', loadedFlag: 'altaiLoaded' },
     'risks': { file: 'ai-risks.md', contentId: 'risks-content', loadedFlag: 'risksLoaded' },
     'testing-scope': { file: 'ai-trustworthiness-testing-scope.md', contentId: 'testing-scope-content', loadedFlag: 'testingScopeLoaded' },
     'security': { file: 'ai-security-threats.md', contentId: 'security-content', loadedFlag: 'securityLoaded' },
