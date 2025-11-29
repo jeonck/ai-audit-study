@@ -13,6 +13,7 @@ const CONTENT_CONFIG = {
     'eu-guidelines': { file: 'eu-gpai-guidelines.md', contentId: 'eu-guidelines-content', loadedFlag: 'euGuidelinesLoaded' },
     'safeguards': { file: 'ai-safeguards.md', contentId: 'safeguards-content', loadedFlag: 'safeguardsLoaded' },
     'tta': { file: 'tta-guide.md', contentId: 'tta-content', loadedFlag: 'ttaLoaded' },
+    'eu-ethics': { file: 'eu-ethics-guidelines.md', contentId: 'eu-ethics-content', loadedFlag: 'euEthicsLoaded' },
     'risks': { file: 'ai-risks.md', contentId: 'risks-content', loadedFlag: 'risksLoaded' },
     'testing-scope': { file: 'ai-trustworthiness-testing-scope.md', contentId: 'testing-scope-content', loadedFlag: 'testingScopeLoaded' },
     'security': { file: 'ai-security-threats.md', contentId: 'security-content', loadedFlag: 'securityLoaded' },
