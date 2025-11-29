@@ -141,6 +141,32 @@ function handleNavClick(e, sections) {
     scrollToTop();
 }
 
+// 홈 링크를 위한 개별 핸들러 (헤더 제목 클릭용)
+function initHomeLinkHandler() {
+    const homeLink = document.querySelector('.home-link');
+    if (homeLink) {
+        homeLink.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            // 모든 섹션 비활성화
+            const sections = document.querySelectorAll('.section');
+            hideAllSections(sections);
+
+            // 홈 섹션 활성화
+            const homeSection = document.getElementById('home');
+            if (homeSection) {
+                homeSection.classList.add('active');
+            }
+
+            // 최상단으로 스크롤
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
+}
+
 /**
  * 네비게이션 초기화
  */
@@ -365,6 +391,7 @@ function initApp() {
     initDropdowns();
     initMobileMenu();
     initSearch();
+    initHomeLinkHandler();
 }
 
 // DOM이 준비되면 앱 초기화
