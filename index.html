@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI 안전성 및 감사 학습 포털 - AI 시스템의 안전성, 신뢰성, 감사 가이드라인을 학습하는 교육 자료">
+    <title>AI Safety & Audit Learning Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header role="banner">
+        <div class="container header-container">
+            <div class="header-left">
+                <h1>AI Safety & Audit Learning Portal</h1>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="메뉴 열기" aria-expanded="false">
+                <span class="hamburger-icon"></span>
+            </button>
+            <nav role="navigation" aria-label="Main navigation" class="main-nav">
+                <ul class="nav-menu">
+                    <li><a href="#home" aria-label="홈으로 이동">Home</a></li>
+
+                    <li class="dropdown">
+                        <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                            Guidelines
+                            <span class="dropdown-arrow">▼</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#guidelines" aria-label="한국 가이드라인">KR Guidelines</a></li>
+                            <li><a href="#eu-guidelines" aria-label="EU 가이드라인">EU Guidelines</a></li>
+                            <li><a href="#tta" aria-label="TTA 신뢰할 수 있는 AI 개발 안내서">TTA Guide</a></li>
+                            <li><a href="#nist" aria-label="NIST AI RMF">NIST AI RMF</a></li>
+                            <li><a href="#standards" aria-label="AI 표준화 동향">Standards Trends</a></li>
+                            <li><a href="#openai" aria-label="OpenAI 대비 프레임워크">OpenAI Framework</a></li>
+                            <li><a href="#eu-office" aria-label="EU AI 사무국">EU AI Office</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                            Safety
+                            <span class="dropdown-arrow">▼</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#ai-safety" aria-label="AI 안전성 및 신뢰성">AI Safety & Reliability</a></li>
+                            <li><a href="#safeguards" aria-label="안전장치">Safeguards</a></li>
+                            <li><a href="#risks" aria-label="위험 요소">Risk Assessment</a></li>
+                            <li><a href="#security" aria-label="보안 위협">Security Threats</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                            Certification
+                            <span class="dropdown-arrow">▼</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#audit-guide" aria-label="감사 가이드">Audit Guide</a></li>
+                            <li><a href="#cert-process" aria-label="AI 인증 준비 절차">Certification Process</a></li>
+                            <li><a href="#testing-scope" aria-label="AI 신뢰성 시험 범위">Testing Scope</a></li>
+                            <li><a href="#iso" aria-label="ISO 42001">ISO 42001</a></li>
+                            <li><a href="#iso-23894" aria-label="ISO 23894 신뢰성 속성">ISO 23894</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                            Governance
+                            <span class="dropdown-arrow">▼</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#governance" aria-label="AI 거버넌스 요소">Governance Elements</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                            Technology
+                            <span class="dropdown-arrow">▼</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#llm-eval" aria-label="LLM 평가 도구">LLM Evaluation Tools</a></li>
+                            <li><a href="#physical" aria-label="피지컬 AI">Physical AI</a></li>
+                            <li><a href="#evolution" aria-label="AI 진화 단계">AI Evolution Stages</a></li>
+                            <li><a href="#timeline" aria-label="AI 타임라인">AI Timeline</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#resources" aria-label="학습 자료">Resources</a></li>
+                </ul>
+            </nav>
+            <div class="header-search">
+                <input type="search" id="search-input" placeholder="Search content..." aria-label="검색">
+                <button id="search-button" aria-label="검색 실행">🔍</button>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+        <section id="home" class="section">
+            <div class="container">
+                <h2>Welcome to the AI Safety & Audit Learning Portal</h2>
+                <div class="intro-text">
+                    <p>This portal provides comprehensive resources on AI safety, security, standards, and certification:</p>
+                </div>
+
+                <div class="category-grid">
+                    <div class="category-card guidelines-category">
+                        <div class="category-icon">📋</div>
+                        <h3>Guidelines & Standards</h3>
+                        <p>국내외 AI 가이드라인 및 표준</p>
+                        <ul>
+                            <li>한국 고영향 AI 가이드라인</li>
+                            <li>EU AI Act & GPAI Guidelines</li>
+                            <li>NIST AI Risk Management Framework</li>
+                            <li>TTA 신뢰할 수 있는 AI 개발 안내서</li>
+                        </ul>
+                    </div>
+
+                    <div class="category-card safety-category">
+                        <div class="category-icon">🛡️</div>
+                        <h3>Safety & Security</h3>
+                        <p>AI 안전성 및 보안 위협 관리</p>
+                        <ul>
+                            <li>AI 안전성 및 신뢰성 보증</li>
+                            <li>안전장치 및 위험 평가</li>
+                            <li>보안 위협 및 대응 전략</li>
+                        </ul>
+                    </div>
+
+                    <div class="category-card certification-category">
+                        <div class="category-icon">✅</div>
+                        <h3>Certification & Audit</h3>
+                        <p>AI 인증 및 감사 프로세스</p>
+                        <ul>
+                            <li>AI 정보시스템 감사 가이드</li>
+                            <li>ISO 42001 & ISO 23894</li>
+                            <li>신뢰성 시험 범위 및 절차</li>
+                        </ul>
+                    </div>
+
+                    <div class="category-card governance-category">
+                        <div class="category-icon">⚖️</div>
+                        <h3>Governance & Management</h3>
+                        <p>AI 거버넌스 체계 구축</p>
+                        <ul>
+                            <li>AI 거버넌스 핵심 요소</li>
+                            <li>조직 관리 및 정책</li>
+                        </ul>
+                    </div>
+
+                    <div class="category-card technology-category">
+                        <div class="category-icon">🔧</div>
+                        <h3>Technology & Tools</h3>
+                        <p>AI 기술 동향 및 평가 도구</p>
+                        <ul>
+                            <li>LLM 평가 도구 및 벤치마크</li>
+                            <li>Physical AI 및 진화 단계</li>
+                            <li>AI 타임라인 및 발전사</li>
+                        </ul>
+                    </div>
+
+                    <div class="category-card resources-category">
+                        <div class="category-icon">📚</div>
+                        <h3>Resources</h3>
+                        <p>추가 학습 자료 및 참고 문헌</p>
+                        <ul>
+                            <li>관련 문서 및 연구 자료</li>
+                            <li>외부 링크 및 참고 사이트</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai-safety" class="section" aria-labelledby="ai-safety-title">
+            <div class="container">
+                <div id="ai-safety-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="audit-guide" class="section" aria-labelledby="audit-guide-title">
+            <div class="container">
+                <div id="audit-guide-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="guidelines" class="section" aria-labelledby="guidelines-title">
+            <div class="container">
+                <div id="guidelines-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="eu-guidelines" class="section" aria-labelledby="eu-guidelines-title">
+            <div class="container">
+                <div id="eu-guidelines-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="safeguards" class="section" aria-labelledby="safeguards-title">
+            <div class="container">
+                <div id="safeguards-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tta" class="section" aria-labelledby="tta-title">
+            <div class="container">
+                <div id="tta-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="risks" class="section" aria-labelledby="risks-title">
+            <div class="container">
+                <div id="risks-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testing-scope" class="section" aria-labelledby="testing-scope-title">
+            <div class="container">
+                <div id="testing-scope-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="security" class="section" aria-labelledby="security-title">
+            <div class="container">
+                <div id="security-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="nist" class="section" aria-labelledby="nist-title">
+            <div class="container">
+                <div id="nist-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="governance" class="section" aria-labelledby="governance-title">
+            <div class="container">
+                <div id="governance-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="iso-23894" class="section" aria-labelledby="iso-23894-title">
+            <div class="container">
+                <div id="iso-23894-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="cert-process" class="section" aria-labelledby="cert-process-title">
+            <div class="container">
+                <div id="cert-process-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="timeline" class="section" aria-labelledby="timeline-title">
+            <div class="container">
+                <div id="timeline-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="iso" class="section" aria-labelledby="iso-title">
+            <div class="container">
+                <div id="iso-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="standards" class="section" aria-labelledby="standards-title">
+            <div class="container">
+                <div id="standards-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="llm-eval" class="section" aria-labelledby="llm-eval-title">
+            <div class="container">
+                <div id="llm-eval-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="physical" class="section" aria-labelledby="physical-title">
+            <div class="container">
+                <div id="physical-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="evolution" class="section" aria-labelledby="evolution-title">
+            <div class="container">
+                <div id="evolution-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="eu-office" class="section" aria-labelledby="eu-office-title">
+            <div class="container">
+                <div id="eu-office-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="openai" class="section" aria-labelledby="openai-title">
+            <div class="container">
+                <div id="openai-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources" class="section" aria-labelledby="resources-title">
+            <div class="container">
+                <div id="resources-content" class="markdown-content">
+                    <p class="loading-text">Loading content...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <p>AI Safety & Audit Learning Portal &copy; 2025 | Educational Resource</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
