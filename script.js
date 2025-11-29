@@ -23,6 +23,7 @@ const CONTENT_CONFIG = {
     'timeline': { file: 'ai-timeline.md', contentId: 'timeline-content', loadedFlag: 'timelineLoaded' },
     'iso': { file: 'iso-42001.md', contentId: 'iso-content', loadedFlag: 'isoLoaded' },
     'standards': { file: 'ai-standards-trends.md', contentId: 'standards-content', loadedFlag: 'standardsLoaded' },
+    'iso-22989': { file: 'iso-22989-terminology.md', contentId: 'iso-22989-content', loadedFlag: 'iso22989Loaded' },
     'llm-eval': { file: 'llm-evaluation-tools.md', contentId: 'llm-eval-content', loadedFlag: 'llmEvalLoaded' },
     'physical': { file: 'physical-ai.md', contentId: 'physical-content', loadedFlag: 'physicalLoaded' },
     'evolution': { file: 'ai-evolution-stages.md', contentId: 'evolution-content', loadedFlag: 'evolutionLoaded' },
