@@ -101,6 +101,15 @@ header {
     white-space: nowrap;
 }
 
+.header-left h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header-left h1 a:hover {
+    text-decoration: underline;
+}
+
 /* Mobile Menu Toggle */
 .mobile-menu-toggle {
     display: none;
