@@ -9,6 +9,7 @@
 const CONTENT_CONFIG = {
     'ai-safety': { file: 'ai-safety.md', contentId: 'ai-safety-content', loadedFlag: 'aiSafetyLoaded' },
     'audit-guide': { file: 'audit-guide.md', contentId: 'audit-guide-content', loadedFlag: 'auditGuideLoaded' },
+    'gen-ai-audit': { file: 'gen-ai-data-quality-audit.md', contentId: 'gen-ai-audit-content', loadedFlag: 'genAiAuditLoaded' },
     'guidelines': { file: 'high-impact-guidelines.md', contentId: 'guidelines-content', loadedFlag: 'guidelinesLoaded' },
     'eu-guidelines': { file: 'eu-gpai-guidelines.md', contentId: 'eu-guidelines-content', loadedFlag: 'euGuidelinesLoaded' },
     'safeguards': { file: 'ai-safeguards.md', contentId: 'safeguards-content', loadedFlag: 'safeguardsLoaded' },
