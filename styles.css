@@ -443,6 +443,17 @@ main {
     font-weight: bold;
 }
 
+.category-card ul li a {
+    color: var(--color-text);
+    text-decoration: none;
+    transition: color var(--transition-base);
+}
+
+.category-card ul li a:hover {
+    color: var(--color-secondary);
+    text-decoration: underline;
+}
+
 /* Category-specific colors */
 .guidelines-category {
     border-left-color: #3182ce;

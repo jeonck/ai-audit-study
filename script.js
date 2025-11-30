@@ -170,6 +170,45 @@ function initHomeLinkHandler() {
 }
 
 /**
+ * 카테고리 카드 내 링크 핸들러 초기화
+ */
+function initCategoryCardLinks() {
+    // 카테고리 카드 내의 모든 링크
+    const categoryLinks = document.querySelectorAll('.category-card a[href^="#"]');
+
+    categoryLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            // href에서 섹션 ID 추출
+            const targetId = this.getAttribute('href').substring(1);
+
+            // 모든 섹션 숨기기
+            const sections = document.querySelectorAll('.section');
+            hideAllSections(sections);
+
+            // 대상 섹션 표시
+            showSection(targetId);
+
+            // 필요시 콘텐츠 로드
+            loadContentIfNeeded(targetId);
+
+            // 스크롤 최상단으로
+            scrollToTop();
+
+            // 모바일 메뉴가 열려있으면 닫기
+            const mobileToggle = document.querySelector('.mobile-menu-toggle');
+            const mainNav = document.querySelector('.main-nav');
+            if (mobileToggle && mainNav && window.innerWidth <= 768) {
+                mobileToggle.setAttribute('aria-expanded', 'false');
+                mobileToggle.setAttribute('aria-label', '메뉴 열기');
+                mainNav.classList.remove('active');
+            }
+        });
+    });
+}
+
+/**
  * 네비게이션 초기화
  */
 function initNavigation() {
@@ -394,6 +433,7 @@ function initApp() {
     initMobileMenu();
     initSearch();
     initHomeLinkHandler();
+    initCategoryCardLinks();
 }
 
 // DOM이 준비되면 앱 초기화
