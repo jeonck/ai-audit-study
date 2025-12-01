@@ -38,3 +38,48 @@ OpenAI는 프레임워크를 통해 모델의 위험 수준을 4가지 등급으
 **핵심 원칙:** 모델이 Tier 3 (높은 위험) 또는 Tier 4 (치명적 위험) 임계값에 도달하거나 초과하는 것으로 평가될 경우, OpenAI는 해당 모델의 배포를 중지하거나 접근을 크게 제한하는 등 강력한 완화 조치를 취해야 합니다.
 
 이 프레임워크는 AI 안전에 대한 선제적인 책임을 강조하며, AI 법(AI Act)이나 NIST RMF와 같은 외부 규제와 함께 업계 자체의 안전 기준을 제시하는 중요한 역할을 합니다.
+
+## 키워드
+- OpenAI
+- 대비 프레임워크
+- Preparedness Framework
+- 최첨단 AI
+- Frontier AI
+- 파국적 위험
+- Catastrophic Risks
+- 위험한 능력
+- Dangerous Capabilities
+- 위험 인텔리전스
+- 임계값 설정
+- 모델 평가
+- 레드팀
+- Red Teaming
+- 완화 조치
+- 모델 통제
+- 자율성
+- 복제
+- CBRN
+- 사이버 보안
+- 모델 통제력 상실
+- 위험 등급
+- Tier 0
+- Tier 1
+- Tier 2
+- Tier 3
+- Tier 4
+- 높은 위험
+- 치명적 위험
+- 안전 장치
+- Safeguards
+- 재정렬
+- Re-alignment
+- 접근 제한
+- 배포 일시 중지
+- AI 안전
+- AI 윤리
+- AI 거버넌스
+- AI 위험 관리
+- AI 수명 주기
+- 통제력 상실
+- Jailbreak
+- 위험 감지

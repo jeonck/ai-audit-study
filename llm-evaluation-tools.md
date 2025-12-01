@@ -75,3 +75,56 @@
 | 통합 평가 플랫폼 | MLflow, Weights & Biases 등 MLOps 플랫폼 | 모델 학습, 배포, 모니터링 과정에서 평가 도구를 통합하고 자동화하여 지속적인 평가(Continuous Evaluation) 및 모델 드리프트(Drift) 감지를 수행합니다. |
 |------------------|----------------------------------------|----------------------------------------------------------------------------------------------------|
 | 위험 관리 표준 | NIST AI RMF | LLM 평가 결과를 위험 관리(Risk Management) 맥락에서 해석하고, 조직의 거버넌스와 연결하는 표준화된 절차 및 틀을 제공합니다. |
+
+## 키워드
+- LLM 평가 도구
+- 거대 언어 모델
+- 평가 도구 유형
+- 모델 평가
+- 성능 평가
+- 벤치마크
+- MMLU
+- TriviaQA
+- GSM8K
+- DROP
+- ROUGE
+- BLEU
+- HumanEval
+- RAG 평가
+- DeepEval
+- Ragas
+- 안전 평가
+- 윤리 평가
+- 레드팀
+- Project Moonshot
+- 파국적 위험
+- 환각 평가
+- 진실성
+- 편향 평가
+- StereoSet
+- CrowS-Pairs
+- TruthfulQA
+- 일탈 행위
+- Deception
+- 통제력 상실
+- CBRN
+- 모델 드리프트
+- MLflow
+- Weights & Biases
+- MLOps
+- NIST AI RMF
+- AI 거버넌스
+- 정렬
+- Alignment
+- 유해성
+- 편향성
+- 공정성
+- 사실 검증
+- 진실성
+- 환각률
+- 충실성
+- 관련성
+- 응답 관련성
+- 요약 평가
+- 번역 평가
+- 코드 생성 평가

@@ -37,3 +37,42 @@ ISO/IEC 22989의 중요한 기여 중 하나는 AI 논의에서 흔히 혼동되
 ### 4. 최근 동향: 생성형 AI (Generative AI) 용어 추가
 
 2022년 표준 발행 이후 생성형 AI(Generative AI)의 중요성이 부각됨에 따라, 현재 ISO/IEC 22989:2022의 개정판 또는 Amendment 1을 통해 생성형 AI 관련 용어를 추가하려는 작업이 진행 중입니다.
+
+## 키워드
+- ISO/IEC 22989
+- AI 개념
+- 용어 정의
+- 인공지능
+- AI 시스템
+- 머신러닝
+- 딥러닝
+- 협소 AI
+- 일반 AI
+- 모델
+- 알고리즘
+- 데이터셋
+- 훈련 데이터
+- 검증 데이터
+- 테스트 데이터
+- 분류
+- 예측
+- 추론
+- AI 라이프사이클
+- 견고성
+- 설명 가능성
+- 투명성
+- 신뢰성
+- 안전성
+- 보안
+- 공정성
+- Human-in-the-loop
+- Human-on-the-loop
+- Human-in-command
+- AI 신뢰성
+- ISO/IEC JTC 1/SC 42
+- KS X ISO/IEC 22989
+- 생성형 AI
+- Generative AI
+- 모델 정의
+- AI 용어
+- AI 표준
